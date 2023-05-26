@@ -1,0 +1,155 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 100%;
+    background-color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    min-width: 400px;
+    height:100vh;
+    margin: auto;
+}
+#header {
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+#header .back-arrow {
+    margin: 0px 20px;
+    width: 10%;
+    font-size: 30px;
+    font-weight: 900;
+}
+img.verified-badge {
+    width: 16px;
+    height: 16px;
+}
+.user-details,.tweet-count {
+    color: rgb(83, 100, 113);
+    font-size: 16px;
+}
+.display-name {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+}
+#cover {
+    width: 100%;
+    min-height: 200px;
+    background-size:cover;
+}
+#profile-details {
+    width: 100%;
+    margin: 15px;
+}
+.profile-top {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.profile-photo {
+    background-size:cover;
+    position: relative;
+    bottom: 85px;
+    width: 133px;
+    height: 133px;
+    border-radius: 100%;
+    border: 3px solid #FFFFFF;
+}
+.follow-btn {
+    color: #FFFFFF;
+    background-color: #1EA1F1;
+    border-radius: 35px;
+    width: 100px;
+    height: 35px;
+    margin-right: 25px;
+    padding: 9px 0px;
+    text-align: center;
+}
+.joined {
+    margin: 12px 0px;
+}
+.cal-icon {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+.bold {
+    font-weight: 800;
+    color: #000000;
+}
+#tweets {
+    width: 100%;
+}
+.tweet-menu-bar {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: rgb(83, 100, 113);
+    margin-bottom: 20px;
+    border-bottom: 3px solid #F1F1F1;
+}
+.tweet-menu-item {
+    padding: 0px 30px 30px 30px;
+}
+.selected {
+    color: #1EA1F1;
+    border-bottom: 3px solid #1EA1F1;
+}
+.tweet-feed {
+    margin: auto;
+    width: 95%;
+}
+.tweet-container {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 10px;
+    border-bottom: 3px solid #F1F1F1;
+}
+.tweet-container:hover {
+    background-color: #F1F1F1;
+}
+.tweet-profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-size:cover;
+}
+.tweet-box {
+    width: 100%;
+    margin: 0px 10px;
+    line-height: 25px;
+}
+.tweet-box .display-name {
+    font-size: 18px;
+}
+.timestamp {
+    color: rgb(83, 100, 113);
+    font-size: 15px;
+}
+.tweet-btns {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 13px;
+    color: rgb(83, 100, 113);
+}
+svg {
+    opacity: 50%;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
